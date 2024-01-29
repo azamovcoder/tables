@@ -1,0 +1,146 @@
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.hamburger,
+.hamburger img {
+    border: none;
+}
+
+.right_img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: url(../images/rigt-photo.png) no-repeat center;
+    background-size: 100px;
+
+}
+
+
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.main__btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.more_btn {
+    width: 71.094px;
+    height: 45px;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add_btn {
+    border-radius: 5px;
+    padding: 12px 20px;
+    background: #10CD45;
+    color: #FFF;
+    border: 2px solid white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.add_btn:hover {
+    color: #10CD45;
+    background-color: #FFF;
+    border: 2px solid #10CD45;
+
+}
+
+.container {
+    width: 95%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 20px 70px;
+}
+
+.td-h {
+    color: #878787;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.td-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #414141;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+table,
+th,
+td,tr{
+    border-collapse: collapse ;
+    
+}
+
+.td {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.td-2 {
+    color: #414141;
+
+}
+
+.td-3 {
+    color: #00CA39;
+}
+
+.td-4 {
+    color: #E44067;
+}
+
+.td-5 {
+    color: #414141;
+}
+
+.bac-1 {
+    background-color: #EEF2F5;
+}
+table{
+    padding-bottom: 100px;
+}
+table{
+    overflow: scroll;
+}
